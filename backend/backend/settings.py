@@ -45,7 +45,6 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'users',
-    'st_notifications.apps.StNotificationsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -54,13 +53,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'api',
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
     'exams',
-    'labs',
     'social_django',
-    'chatbot',
 ]
 
 MIDDLEWARE = [
@@ -249,13 +245,13 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://graduationprojectiti-production.up.railway.app",
-    "https://examsystem-hazel.vercel.app",
+    # "https://graduationprojectiti-production.up.railway.app",
+    # "https://examsystem-hazel.vercel.app",
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
-    "https://graduationprojectiti-production.up.railway.app",
-    "https://examsystem-hazel.vercel.app"
+    # "https://graduationprojectiti-production.up.railway.app",
+    # "https://examsystem-hazel.vercel.app"
 ]
 
 REST_FRAMEWORK = {
@@ -293,14 +289,6 @@ SOCIAL_AUTH_LOGIN_ERROR_URL = '/signin/'
 SOCIAL_AUTH_USER_MODEL = 'users.User'
 
 
- 
-VAPID_PUBLIC_KEY = os.getenv("VAPID_PUBLIC_KEY")
-VAPID_PRIVATE_KEY = os.getenv("VAPID_PRIVATE_KEY")
-VAPID_EMAIL = os.getenv("VAPID_EMAIL")
-
-
-
-
- # Supabase configuration
+# Supabase configuration
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY")

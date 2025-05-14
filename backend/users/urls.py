@@ -1,6 +1,4 @@
 from django.urls import path, include
-
-from api import views
 from .views import  (
     ApproveInstructorAPIView, ChangeAdminPasswordAPIView, ChangeInstructorPasswordAPIView, CourseListCreateView, CourseRetrieveUpdateDestroyView, 
     BranchListCreateView, BranchRetrieveUpdateDestroyView, InstructorProfileView, PendingInstructorsAPIView,

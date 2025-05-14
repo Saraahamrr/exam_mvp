@@ -7,7 +7,6 @@ from rest_framework import generics, permissions, viewsets, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.decorators import action
-from st_notifications.models import Note
 from users.models import Course, Instructor, Student, User
 from .models import CheatingLog, CodingQuestion, CodingTestCase, Exam, MCQQuestion, TemporaryExamInstance, StudentExamAnswer,CodingTestCase,Branch
 from .serializers import CheatingLogSerializer, CodingQuestionSerializer, CodingTestCaseSerializer, ExamSerializer, MCQQuestionSerializer, TempExamSerializer
