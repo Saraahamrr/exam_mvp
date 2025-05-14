@@ -35,9 +35,9 @@ from os import getenv
 
 ALLOWED_HOSTS = [
     'graduation_project_iti.railway.internal',
+    'exammvp-production.up.railway.app'
     'localhost',
     '127.0.0.1',
-    'graduationprojectiti-production.up.railway.app', 
 ]
 
 # CORS_ALLOW_ALL_ORIGINS = True
