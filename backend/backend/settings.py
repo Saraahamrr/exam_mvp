@@ -34,8 +34,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 from os import getenv
 
 ALLOWED_HOSTS = [
-    'graduation_project_iti.railway.internal',
-    'exammvp-production.up.railway.app'
+    'exammvp-production.up.railway.app',
     'localhost',
     '127.0.0.1',
 ]
