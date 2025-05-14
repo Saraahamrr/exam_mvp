@@ -245,12 +245,12 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    # "https://graduationprojectiti-production.up.railway.app",
+    "https://exammvp-production.up.railway.app",
     # "https://examsystem-hazel.vercel.app",
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
-    # "https://graduationprojectiti-production.up.railway.app",
+    "https://exammvp-production.up.railway.app",
     # "https://examsystem-hazel.vercel.app"
 ]
 
