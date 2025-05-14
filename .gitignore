@@ -1,0 +1,41 @@
+# === Node / Next.js ===
+node_modules/
+.next/
+out/
+build/
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+next-env.d.ts
+commands.txt
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# === Python / Django ===
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.sqlite3
+*.log
+*.env
+*.env.*
+.env*
+
+# vercel
+.vercel
+
+# === VSCode ===
+.vscode/
+
+# === System ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+# *.txt
+
+.env.local
